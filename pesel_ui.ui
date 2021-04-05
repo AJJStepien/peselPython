@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>99</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QDateEdit" name="birthDate"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="giveMeDateLbl">
+      <property name="text">
+       <string>Podaj swoją datę urodzenia: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="generateBtn">
+      <property name="text">
+       <string>Generuj PESEL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="newPeselInfoLbl">
+      <property name="text">
+       <string>Twój nowy numer PESEL: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="newPesel">
+      <property name="text">
+       <string>Nowy Pesel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
